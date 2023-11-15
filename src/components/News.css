@@ -1,0 +1,51 @@
+/* src/components/News.css */
+
+/* Style the entire news container */
+.news-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Create a responsive grid */
+  gap: 20px; /* Adjust the gap between grid items */
+  max-height: 80vh; /* Set a maximum height for the container */
+  overflow-y: auto; /* Enable vertical scrolling when content overflows */
+}
+
+/* Style each news article */
+.news-article {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  max-width: 500px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  background-color: #f9f9f9;
+}
+
+/* Style the article image */
+.article-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style the article title */
+.article-title {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* Style the article description */
+.article-description {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Style the source information */
+.source-info {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+/* Style the "Read more" link */
+.read-more-link {
+  text-decoration: none;
+  color: #0073e6;
+}
