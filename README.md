@@ -1,3 +1,7 @@
+# Introduction
+Welcome to the News App, a web application developed using the MERN stack (MongoDB, Express.js, React.js, Node.js) and integrated with a News API. This application aims to provide users with a seamless and interactive platform to stay updated with the latest news from various sources.
+
+# Note: This application is currently under development,
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
