@@ -1,7 +1,7 @@
-const mongoose = require('mongoose');
-const jwt = require('jsonwebtoken');
-const Joi = require('joi');
-const passwordComplexity = require('joi-password-complexity')
+const mongoose = require('mongoose');//Object Data Modeling
+const jwt = require('jsonwebtoken');//creating and verifying JSON Web Tokens
+const Joi = require('joi');//validation library for javascript
+const passwordComplexity = require('joi-password-complexity')//provides password complexity validation.
 
 const userSchema = new mongoose.Schema({
     name: {
