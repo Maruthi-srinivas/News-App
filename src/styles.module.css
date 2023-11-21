@@ -1,0 +1,25 @@
+/* styles.module.css */
+.start_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .button_container {
+    margin-top: 20px;
+  }
+  
+  .green_btn {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Add any additional styles as needed */
+  

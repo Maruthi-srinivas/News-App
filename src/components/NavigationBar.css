@@ -1,41 +1,33 @@
-/* NavBar.css */
-nav {
+/* src/components/NavigationBar.css */
+
+.menu {
     background-color: #333;
-    color: #fff;
     padding: 10px;
-}
+    text-align: center; /* Center-align the text in the navigation bar */
+  }
   
-ul{
-    list-style: none;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    justify-content: center; /* Center-align the list items */
+  }
   
-li{
-    margin: 0 10px;
+  li {
+    margin-right: 15px;
     cursor: pointer;
-}
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
   
-.menu .inactive{
-    background: #eee;
-}
+  li:hover {
+    color: #ffd700; /* Color on hover */
+  }
   
-.menu .active{
-    background: #ccc;
-}
+  .active {
+    color: #00bcd4; /* Color for the selected category */
+  }
   
-.menu .active:hover{
-    background: #aeaeae;
-}
-  
-.menu .inactive:hover{
-    background: #dddddd;
-}
-a{
-    text-decoration: none;
-}
-img {
-    height: 50px;
-    width: 50px;
-  }  

@@ -21,7 +21,8 @@ const News = ({ category }) => {
 
   return (
     <div className='news-container' >
-    <h2>{category} News</h2>
+    <h2 className='heading'>{category} News</h2>
+    <div className="articles-grid">
     {articles.map((val)=>{
       return (
         <div className="card" style={{width: "18rem"}}>
@@ -34,6 +35,7 @@ const News = ({ category }) => {
       </div>
       )
     })}
+    </div>
     </div>
   );
 };

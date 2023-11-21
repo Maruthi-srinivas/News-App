@@ -4,8 +4,8 @@ import NavigationBar from './NavigationBar';
 import News from './News';
 
 const CategorySelector = () => {
-  const [selectedCategory, setSelectedCategory] = useState('general');
-  const categories = ['general', 'business', 'technology', 'entertainment','health', 'sports', 'science' /* Add more categories here */];
+  const [selectedCategory, setSelectedCategory] = useState('General');
+  const categories = ['General', 'Business', 'Technology', 'Entertainment','Health', 'Sports', 'Science' /* Add more categories here */];
 
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);
